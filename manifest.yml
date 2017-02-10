@@ -1,0 +1,9 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: GS-testrun-10Feb2017
+  host: GS-testrun-10Feb2017
+  disk_quota: 1024M
+  buildpack: python_buildpack
